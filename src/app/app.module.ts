@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { Chap3Component } from './app.component';
+import { AppComponent } from './outer.component';
 
 @NgModule({
   declarations: [
-    Chap3Component
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +15,6 @@ import { Chap3Component } from './app.component';
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [Chap3Component]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
